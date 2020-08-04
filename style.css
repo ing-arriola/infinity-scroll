@@ -40,3 +40,24 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.image-container {
+  margin: 0.8rem 30%;
+}
+
+.image-container img {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .image-container {
+    margin: 0.8rem;
+  }
+}
